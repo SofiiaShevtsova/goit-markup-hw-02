@@ -27,5 +27,33 @@ body{
 }
 .nav:hover, .nav:focus{
     color: var(--accent-color);
-
+}
+.contact{
+    color: var(--second--text-color);
+}
+.contact:hover , .contact:focus {
+    color: var(--accent-color);
+}
+.baner{
+    background-color: var(--second-bgr-color);
+    color: var(--button-color);
+}
+.button{
+    color: var(--button-color);
+    background-color: var(--accent-color);
+}
+.skils-text{
+    color: var(--second--text-color);
+}
+.team-prof{
+    color: var(--second--text-color);
+}
+.logo-bot{
+    background-color: var(--second-bgr-color);
+}
+.addres{
+    color: var(--button-color);
+}
+.bot-contact{
+    color: rgba(255, 255,255, 0.6);
 }
