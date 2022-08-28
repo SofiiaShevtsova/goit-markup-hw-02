@@ -1,0 +1,31 @@
+/* #000000 #2196F3 #212121 #757575  -- колір шрифтів-- */
+
+/* #2F303A #F5F4FA --колір фону-- */
+:root{
+    --first-text-color:#212121;
+    --second--text-color:#757575;
+    --accent-color:#2196F3;
+    --button-color:#FFFFFF;
+    --first-bgr-color:#F5F4FA;
+    --second-bgr-color:#2F303A;
+}
+body{
+    background-color: var(--first-bgr-color);
+    color: var(--first-text-color);
+}
+.logo-first{
+    color: var(--accent-color);
+}
+.logo-second{
+    color:#000;
+}
+.resed{
+    list-style-type:none;
+}
+.nav{
+    color: var(--first-text-color);
+}
+.nav:hover, .nav:focus{
+    color: var(--accent-color);
+
+}
