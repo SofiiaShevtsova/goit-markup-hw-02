@@ -123,3 +123,44 @@ text-align: center;
     font-size: 14px;
         line-height: 1.71;
 }
+
+/* портфоліо */
+.button-proj{
+    font-family: 'Roboto', sans-serif;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.62;
+        text-align: center;
+        letter-spacing: 0.03em;
+    
+        color:var(--first-text-color);
+}
+.button-proj:hover, .button-proj:focus{
+    color: var(--button-color);
+    background-color: var(--accent-color);
+
+}
+/* 
+--назва проекту--
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 36px;
+identical to box height, or 200%
+
+letter-spacing: 0.06em;
+
+color: #212121;
+
+--вид проекту--
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 30px;
+ identical to box height, or 188%
+
+letter-spacing: 0.03em;
+
+color: #757575; */
