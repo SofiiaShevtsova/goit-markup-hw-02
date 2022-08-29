@@ -56,7 +56,7 @@ body{
 .contact:hover , .contact:focus {
     color: var(--accent-color);
 }
-/* main */
+/* main головна */
 .baner{
     background-color: var(--second-bgr-color);
     color: var(--button-color);
