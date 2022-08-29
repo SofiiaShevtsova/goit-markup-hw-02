@@ -138,29 +138,17 @@ text-align: center;
 .button-proj:hover, .button-proj:focus{
     color: var(--button-color);
     background-color: var(--accent-color);
-
 }
-/* 
---назва проекту--
-font-family: 'Roboto';
-font-style: normal;
+
+.proj-name{
 font-weight: 700;
 font-size: 18px;
-line-height: 36px;
-identical to box height, or 200%
-
+line-height: 2;
 letter-spacing: 0.06em;
-
-color: #212121;
-
---вид проекту--
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
+}
+.proj-class{
+    color: var(--second--text-color);
 font-size: 16px;
-line-height: 30px;
- identical to box height, or 188%
+line-height: 1.88;
+}
 
-letter-spacing: 0.03em;
-
-color: #757575; */
