@@ -48,9 +48,9 @@ a{
 .nav:hover, .nav:focus  {
     color: var(--accent-color);
 }
-/* .nav:active {
-    color: red;
-} */
+ .active {
+    color: var(--accent-color);
+} 
 .contact{
     color: var(--second--text-color);
     font-weight: 500;
