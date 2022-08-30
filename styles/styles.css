@@ -16,7 +16,9 @@ body{
     font-family:'Roboto', sans-serif;
     letter-spacing: 0.03em;
 }
-
+a{
+    text-decoration: none;
+}
 .logo-first{
     color: var(--accent-color);
 }
@@ -43,9 +45,12 @@ body{
         line-height: 1.14;
         letter-spacing: 0.02em;
 }
-.nav:hover, .nav:focus{
+.nav:hover, .nav:focus  {
     color: var(--accent-color);
 }
+/* .nav:active {
+    color: red;
+} */
 .contact{
     color: var(--second--text-color);
     font-weight: 500;
@@ -82,10 +87,12 @@ text-transform: uppercase;}
 .skils-title{
     font-weight: 700;
         font-size: 14px;
-        line-height: 1.14px;
+        line-height: 1.14;
         text-transform: uppercase;
 }
 .skils-text{
+    font-size: 14px;
+    line-height: 1.71;
     color: var(--second--text-color);
 }
 .title{
@@ -115,11 +122,13 @@ text-align: center;
 }
 .addres{
     color: var(--button-color);
+    font-style: normal;
     font-size: 14px;
         line-height: 1.71;
 }
 .bot-contact{
     color: rgba(255, 255,255, 0.6);
+    font-style: normal;
     font-size: 14px;
         line-height: 1.71;
 }
