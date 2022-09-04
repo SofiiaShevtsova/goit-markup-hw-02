@@ -9,10 +9,12 @@
     --button-color:#FFFFFF;
     --first-bgr-color:#F5F4FA;
     --second-bgr-color:#2F303A;
+    --all-bgr-color:#FFFFFF;
+    
 }
 
 body{
-    background-color: var(--first-bgr-color);
+    background-color: var(--all-bgr-color);
     color: var(--first-text-color);
     font-family:'Roboto', sans-serif;
     letter-spacing: 0.03em;
@@ -40,7 +42,7 @@ h1, h2, h3, h4, p {
 .container {
     width: 1200px;
     padding:0 15px;
-    outline: 5px solid tomato;
+    /* outline: 5px solid tomato; */
     margin-left: auto;
     margin-right: auto;
 
@@ -77,8 +79,9 @@ h1, h2, h3, h4, p {
 }
 
 .logo-top .container{
-    padding-bottom: 30px;
-    padding-top: 30px;
+    padding-bottom: 24px;
+    padding-top: 24px;
+    border-bottom: 1px solid rgba(236, 236, 236, 1);
 }
 
 
@@ -150,6 +153,7 @@ text-transform: uppercase;}
 }
 
 /* skils */
+
 .skils .flex{
     align-items: stretch;
 }
@@ -162,7 +166,7 @@ margin-bottom: 10px;
         text-transform: uppercase;
 }
 .skils .container{
-    padding-top: 94px;
+    padding-top: 94px;   
 }
 
 .skils-text{
@@ -178,18 +182,26 @@ text-align: center;
 }
 
 /* робота */
+
 .work .title{
-    padding-bottom: 50px;
+    margin-bottom: 50px;
 }
 /* team */
+.team {
+    background-color: var(--first-bgr-color);
+}
 .team .title{
     padding-top: 94px;
-    padding-bottom: 50px;
+    margin-bottom: 50px;
 }
-.team-card{
-    border-bottom: 2px solid var(--second--text-color);
-    border-radius: 10%;
+.team-card {
+    background-color: var(--all-bgr-color);
+
 }
+.team img {
+    display: block;
+}
+
 .team-name{
 margin-top: 30px;
 margin-bottom: 10px;
@@ -220,23 +232,18 @@ padding-bottom: 30px;
 }
 .bot-address {
     margin-top: 20px;
-    min-height: 80px;
+    font-style: normal;
+    font-size: 14px;
+        line-height: 1.71;
+        /* letter-spacing: 0.03em; */
 }
 .addres{
     color: var(--button-color);
-    font-style: normal;
-    font-size: 14px;
-        line-height: 1.71;
 }
 .bot-contact{
 margin-top: 9px;
-
-
-    color: rgba(255, 255,255, 0.6);
-    font-style: normal;
-    font-size: 14px;
-        line-height: 1.71;
-        }
+color: rgba(255, 255,255, 0.6);
+}
 
 /* портфоліо */
 .container.button-list{
@@ -267,6 +274,9 @@ margin-top: 9px;
 .proj-list .flex{
     flex-wrap: wrap;
    row-gap: 30px;
+}
+.proj-list img {
+    display: block;
 }
 .proj-card{
     border: 1px solid rgba(238, 238, 238, 1);
